@@ -1,0 +1,23 @@
+print("The game is loaded!")
+print("Pick Math or Science")
+roomSelection = input("Enter Math or Science")
+if roomSelection == "Math":
+    print("Entered Math")
+    roomSelection = input("Enter Algebra or Geometry")
+    if roomSelection == "Algebra":
+        print("Entered Algebra")
+    elif roomSelection == "Geometry":
+        print("Entered Geometry")
+    else:
+        print("invalid entry. Program is closing.")
+elif roomSelection == "Science":
+    print("Entered Science")
+    roomSelection = input("Enter Chemistry or Biology")
+    if roomSelection == "Chemistry":
+        print("Entered Chemistry")
+    elif roomSelection == "Biology":
+        print("Entered Biology")
+    else:
+        print("invalid entry. Program is closing.")
+else:
+	print("invalid entry. Program is closing.")
